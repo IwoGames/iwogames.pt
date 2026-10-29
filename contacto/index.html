@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contacto · IwoGames</title>
+<meta name="description" content="Envia uma ideia, sugestão ou mensagem à IwoGames.">
+<meta name="theme-color" content="#2448a6">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="/">IwoGames</a>
+    <nav>
+      <a href="/jogos/">Jogos</a>
+      <a href="/contacto/" aria-current="page">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  <section>
+    <div class="wrap">
+      <h1 class="ptitle">Tens uma ideia? Conta-nos!</h1>
+      <div class="lead">
+        <p>Há um jogo que sempre quiseste jogar e ainda não encontraste? Uma melhoria, uma funcionalidade ou um desafio que gostavas de ver nos nossos jogos?</p>
+        <p>Pode ser uma sugestão simples, algo que te falta enquanto jogas ou uma ideia fora do comum. Partilha à vontade.</p>
+      </div>
+      <p class="voice">Aqui tens voz. E nós ouvimos.</p>
+      <form class="ideas" id="ideas" action="https://formsubmit.co/iwogames.studio@gmail.com" method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="_subject" value="Nova mensagem do site IwoGames">
+        <input type="hidden" name="_next" value="https://iwogames.pt/obrigado/">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <fieldset class="topics">
+          <legend>Sobre o quê? <span>(escolhe um por mensagem)</span></legend>
+          <label><input type="radio" name="Assunto" value="Ideia para um jogo novo" required> Ideia para um jogo novo</label>
+          <label><input type="radio" name="Assunto" value="Sugestão para um jogo existente" required data-game> Sugestão para um jogo existente</label>
+          <label><input type="radio" name="Assunto" value="Opinião sobre um jogo existente" required data-game> Opinião sobre um jogo existente</label>
+          <label><input type="radio" name="Assunto" value="Erro ou problema num jogo existente" required data-game> Erro ou problema num jogo existente</label>
+          <label><input type="radio" name="Assunto" value="Parcerias ou imprensa" required> Parcerias ou imprensa</label>
+          <label><input type="radio" name="Assunto" value="Outro assunto" required> Outro assunto</label>
+        </fieldset>
+        <div class="gamebox" id="gamebox">
+          <label class="field">Qual jogo?
+            <select name="Jogo" id="jogo">
+              <option value="">Escolhe o jogo</option>
+              <option>Rei da Roulote</option>
+            </select>
+          </label>
+        </div>
+        <label class="field">A tua mensagem
+          <span class="hint" id="hint">Explica a tua ideia com o máximo de pormenor.</span>
+          <textarea name="Mensagem" rows="7" required maxlength="5000"></textarea>
+        </label>
+        <div class="field files" id="files">Capturas de ecrã <span>(opcional, até 3 imagens, 10 MB no total)</span>
+          <input type="file" name="captura_1" accept="image/*" aria-label="Captura de ecrã 1">
+          <input type="file" name="captura_2" accept="image/*" aria-label="Captura de ecrã 2">
+          <input type="file" name="captura_3" accept="image/*" aria-label="Captura de ecrã 3">
+          <p class="err" id="fileerr" hidden>As imagens passam dos 10 MB. Escolhe imagens mais pequenas ou menos imagens.</p>
+        </div>
+        <div class="row">
+          <label class="field">Nome
+            <input type="text" name="Nome" maxlength="80" autocomplete="name" required>
+          </label>
+          <label class="field">Email
+            <input type="email" name="email" maxlength="120" autocomplete="email" required>
+          </label>
+        </div>
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+      <script>
+      (function(){
+        var f=document.getElementById('ideas'),box=document.getElementById('gamebox'),jogo=document.getElementById('jogo'),
+            hint=document.getElementById('hint'),err=document.getElementById('fileerr');
+        var hints={
+          'Ideia para um jogo novo':'Explica a tua ideia com o máximo de pormenor.',
+          'Sugestão para um jogo existente':'Diz o que gostavas de ver no jogo e porquê. Quanto mais pormenor, melhor.',
+          'Opinião sobre um jogo existente':'Conta-nos o que achaste: o que gostaste, o que não gostaste e porquê.',
+          'Erro ou problema num jogo existente':'Descreve ao máximo o que aconteceu: o que estavas a fazer, o que esperavas e o que aconteceu. Se puderes, diz o modelo do telemóvel.',
+          'Parcerias ou imprensa':'Diz-nos quem és e o que propões.',
+          'Outro assunto':'Escreve aqui a tua mensagem.'
+        };
+        function update(){
+          var r=f.querySelector('input[name="Assunto"]:checked'),g=!!(r&&r.hasAttribute('data-game'));
+          box.hidden=!g; jogo.required=g; if(!g) jogo.value='';
+          hint.textContent=r?hints[r.value]:hints['Ideia para um jogo novo'];
+        }
+        f.addEventListener('change',update); update();
+        f.addEventListener('submit',function(e){
+          var t=0; f.querySelectorAll('input[type=file]').forEach(function(i){if(i.files[0])t+=i.files[0].size;});
+          err.hidden=t<=10*1024*1024; if(!err.hidden){e.preventDefault();err.scrollIntoView({block:'center'});}
+        });
+      })();
+      </script>
+      <p class="alt">Ou escreve para <a href="mailto:iwogames.studio@gmail.com">iwogames.studio@gmail.com</a></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>© 2026 IwoGames.Studio</p>
+    <p class="flinks"><a href="/privacidade/">Política de privacidade</a><a href="https://www.livroreclamacoes.pt/Inicio/" target="_blank" rel="noopener">Livro de Reclamações</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
