@@ -1,2 +1,2 @@
 # iwogames.pt
-Site da IwoGames (iwogames.pt)
+Site da IWO Games (iwogames.pt)
