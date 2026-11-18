@@ -1,0 +1,7 @@
+{
+  "v": 1,
+  "_leia": "Eventos e códigos do Spin Feast, lidos pelo jogo ao abrir (versão 1.1 ou mais recente). events: lista de {id, icon, city (-1 = todas, 0 = Lisboa ... 8 = Nova Iorque), food (0 a 5, opcional), start e end (AAAA-MM-DD, hora local, inclusive), mul (1 a 3)}. off: ids do calendário do jogo a desligar. codes: {resumo SHA-256 de spinfeast: + CÓDIGO em maiúsculas: {g: gemas até 500, b: boosters de cada até 5}}.",
+  "events": [],
+  "off": [],
+  "codes": {}
+}
