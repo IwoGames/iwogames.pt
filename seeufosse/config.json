@@ -1,1 +1,450 @@
-{"ia":"https://seeufosse.iwogames-studio.workers.dev","pvpTestes":true}
+{
+ "ia": "https://seeufosse.iwogames-studio.workers.dev",
+ "pvp": true,
+ "pvpTestes": true,
+ "destaque": [
+  "det1",
+  "jor1",
+  "mec1",
+  "prof1",
+  "vet1",
+  "bomb1",
+  "cab1"
+ ],
+ "eventos": [
+  {
+   "nome": "Natal",
+   "inicio": "2026-12-15",
+   "fim": "2027-01-06",
+   "fama": 2
+  },
+  {
+   "nome": "Carnaval",
+   "inicio": "2027-02-05",
+   "fim": "2027-02-14",
+   "fama": 2
+  },
+  {
+   "nome": "Santos Populares",
+   "inicio": "2027-06-10",
+   "fim": "2027-06-30",
+   "fama": 2
+  },
+  {
+   "nome": "Verão",
+   "inicio": "2027-07-15",
+   "fim": "2027-08-31",
+   "fama": 2
+  },
+  {
+   "nome": "Regresso às aulas",
+   "inicio": "2027-09-06",
+   "fim": "2027-09-20",
+   "fama": 2
+  },
+  {
+   "nome": "Halloween",
+   "inicio": "2027-10-24",
+   "fim": "2027-11-01",
+   "fama": 2
+  },
+  {
+   "nome": "Natal",
+   "inicio": "2027-12-15",
+   "fim": "2028-01-06",
+   "fama": 2
+  }
+ ],
+ "desafios": [
+  {
+   "caso": "chef2",
+   "regra": "menos2",
+   "inicio": "2026-12-15",
+   "fim": "2027-01-06"
+  },
+  {
+   "caso": "cab6",
+   "regra": "soPerguntas",
+   "inicio": "2027-02-05",
+   "fim": "2027-02-14"
+  },
+  {
+   "caso": "chef14",
+   "regra": "relampago",
+   "inicio": "2027-06-10",
+   "fim": "2027-06-30"
+  },
+  {
+   "caso": "jor1",
+   "regra": "semProcesso",
+   "inicio": "2027-07-15",
+   "fim": "2027-08-31"
+  },
+  {
+   "caso": "prof4",
+   "regra": "menos2",
+   "inicio": "2027-09-06",
+   "fim": "2027-09-20"
+  },
+  {
+   "caso": "det1",
+   "regra": "soPerguntas",
+   "inicio": "2027-10-24",
+   "fim": "2027-11-01"
+  },
+  {
+   "caso": "chef2",
+   "regra": "menos2",
+   "inicio": "2027-12-15",
+   "fim": "2028-01-06"
+  },
+  {
+   "caso": "det1",
+   "regra": "menos2",
+   "inicio": "2026-11-30",
+   "fim": "2026-12-06"
+  },
+  {
+   "caso": "jor1",
+   "regra": "soPerguntas",
+   "inicio": "2026-12-07",
+   "fim": "2026-12-13"
+  },
+  {
+   "caso": "mec1",
+   "regra": "semProcesso",
+   "inicio": "2026-12-14",
+   "fim": "2026-12-20"
+  },
+  {
+   "caso": "prof1",
+   "regra": "semPistas",
+   "inicio": "2026-12-21",
+   "fim": "2026-12-27"
+  },
+  {
+   "caso": "vet1",
+   "regra": "relampago",
+   "inicio": "2026-12-28",
+   "fim": "2027-01-03"
+  },
+  {
+   "caso": "bomb1",
+   "regra": "menos2",
+   "inicio": "2027-01-04",
+   "fim": "2027-01-10"
+  },
+  {
+   "caso": "cab1",
+   "regra": "soPerguntas",
+   "inicio": "2027-01-11",
+   "fim": "2027-01-17"
+  },
+  {
+   "caso": "med",
+   "regra": "semProcesso",
+   "inicio": "2027-01-18",
+   "fim": "2027-01-24"
+  },
+  {
+   "caso": "chef",
+   "regra": "semPistas",
+   "inicio": "2027-01-25",
+   "fim": "2027-01-31"
+  },
+  {
+   "caso": "adv_def",
+   "regra": "relampago",
+   "inicio": "2027-02-01",
+   "fim": "2027-02-07"
+  },
+  {
+   "caso": "det2",
+   "regra": "menos2",
+   "inicio": "2027-02-08",
+   "fim": "2027-02-14"
+  },
+  {
+   "caso": "jor2",
+   "regra": "soPerguntas",
+   "inicio": "2027-02-15",
+   "fim": "2027-02-21"
+  },
+  {
+   "caso": "mec2",
+   "regra": "semProcesso",
+   "inicio": "2027-02-22",
+   "fim": "2027-02-28"
+  },
+  {
+   "caso": "prof2",
+   "regra": "semPistas",
+   "inicio": "2027-03-01",
+   "fim": "2027-03-07"
+  },
+  {
+   "caso": "vet2",
+   "regra": "relampago",
+   "inicio": "2027-03-08",
+   "fim": "2027-03-14"
+  },
+  {
+   "caso": "bomb2",
+   "regra": "menos2",
+   "inicio": "2027-03-15",
+   "fim": "2027-03-21"
+  },
+  {
+   "caso": "cab2",
+   "regra": "soPerguntas",
+   "inicio": "2027-03-22",
+   "fim": "2027-03-28"
+  },
+  {
+   "caso": "med2",
+   "regra": "semProcesso",
+   "inicio": "2027-03-29",
+   "fim": "2027-04-04"
+  },
+  {
+   "caso": "chef2",
+   "regra": "semPistas",
+   "inicio": "2027-04-05",
+   "fim": "2027-04-11"
+  },
+  {
+   "caso": "adv_def2",
+   "regra": "relampago",
+   "inicio": "2027-04-12",
+   "fim": "2027-04-18"
+  },
+  {
+   "caso": "det3",
+   "regra": "menos2",
+   "inicio": "2027-04-19",
+   "fim": "2027-04-25"
+  },
+  {
+   "caso": "jor3",
+   "regra": "soPerguntas",
+   "inicio": "2027-04-26",
+   "fim": "2027-05-02"
+  },
+  {
+   "caso": "mec3",
+   "regra": "semProcesso",
+   "inicio": "2027-05-03",
+   "fim": "2027-05-09"
+  },
+  {
+   "caso": "prof3",
+   "regra": "semPistas",
+   "inicio": "2027-05-10",
+   "fim": "2027-05-16"
+  },
+  {
+   "caso": "vet3",
+   "regra": "relampago",
+   "inicio": "2027-05-17",
+   "fim": "2027-05-23"
+  },
+  {
+   "caso": "bomb3",
+   "regra": "menos2",
+   "inicio": "2027-05-24",
+   "fim": "2027-05-30"
+  },
+  {
+   "caso": "cab3",
+   "regra": "soPerguntas",
+   "inicio": "2027-05-31",
+   "fim": "2027-06-06"
+  },
+  {
+   "caso": "med3",
+   "regra": "semProcesso",
+   "inicio": "2027-06-07",
+   "fim": "2027-06-13"
+  },
+  {
+   "caso": "chef3",
+   "regra": "semPistas",
+   "inicio": "2027-06-14",
+   "fim": "2027-06-20"
+  },
+  {
+   "caso": "adv_def3",
+   "regra": "relampago",
+   "inicio": "2027-06-21",
+   "fim": "2027-06-27"
+  },
+  {
+   "caso": "det4",
+   "regra": "menos2",
+   "inicio": "2027-06-28",
+   "fim": "2027-07-04"
+  },
+  {
+   "caso": "jor4",
+   "regra": "soPerguntas",
+   "inicio": "2027-07-05",
+   "fim": "2027-07-11"
+  },
+  {
+   "caso": "mec4",
+   "regra": "semProcesso",
+   "inicio": "2027-07-12",
+   "fim": "2027-07-18"
+  },
+  {
+   "caso": "prof4",
+   "regra": "semPistas",
+   "inicio": "2027-07-19",
+   "fim": "2027-07-25"
+  },
+  {
+   "caso": "vet4",
+   "regra": "relampago",
+   "inicio": "2027-07-26",
+   "fim": "2027-08-01"
+  },
+  {
+   "caso": "bomb4",
+   "regra": "menos2",
+   "inicio": "2027-08-02",
+   "fim": "2027-08-08"
+  },
+  {
+   "caso": "cab4",
+   "regra": "soPerguntas",
+   "inicio": "2027-08-09",
+   "fim": "2027-08-15"
+  },
+  {
+   "caso": "med4",
+   "regra": "semProcesso",
+   "inicio": "2027-08-16",
+   "fim": "2027-08-22"
+  },
+  {
+   "caso": "chef4",
+   "regra": "semPistas",
+   "inicio": "2027-08-23",
+   "fim": "2027-08-29"
+  },
+  {
+   "caso": "adv_def4",
+   "regra": "relampago",
+   "inicio": "2027-08-30",
+   "fim": "2027-09-05"
+  },
+  {
+   "caso": "det5",
+   "regra": "menos2",
+   "inicio": "2027-09-06",
+   "fim": "2027-09-12"
+  },
+  {
+   "caso": "jor5",
+   "regra": "soPerguntas",
+   "inicio": "2027-09-13",
+   "fim": "2027-09-19"
+  },
+  {
+   "caso": "mec5",
+   "regra": "semProcesso",
+   "inicio": "2027-09-20",
+   "fim": "2027-09-26"
+  },
+  {
+   "caso": "prof5",
+   "regra": "semPistas",
+   "inicio": "2027-09-27",
+   "fim": "2027-10-03"
+  },
+  {
+   "caso": "vet5",
+   "regra": "relampago",
+   "inicio": "2027-10-04",
+   "fim": "2027-10-10"
+  },
+  {
+   "caso": "bomb5",
+   "regra": "menos2",
+   "inicio": "2027-10-11",
+   "fim": "2027-10-17"
+  },
+  {
+   "caso": "cab5",
+   "regra": "soPerguntas",
+   "inicio": "2027-10-18",
+   "fim": "2027-10-24"
+  },
+  {
+   "caso": "med5",
+   "regra": "semProcesso",
+   "inicio": "2027-10-25",
+   "fim": "2027-10-31"
+  },
+  {
+   "caso": "chef5",
+   "regra": "semPistas",
+   "inicio": "2027-11-01",
+   "fim": "2027-11-07"
+  },
+  {
+   "caso": "adv_def5",
+   "regra": "relampago",
+   "inicio": "2027-11-08",
+   "fim": "2027-11-14"
+  },
+  {
+   "caso": "det1",
+   "regra": "menos2",
+   "inicio": "2027-11-15",
+   "fim": "2027-11-21"
+  },
+  {
+   "caso": "jor1",
+   "regra": "soPerguntas",
+   "inicio": "2027-11-22",
+   "fim": "2027-11-28"
+  },
+  {
+   "caso": "mec1",
+   "regra": "semProcesso",
+   "inicio": "2027-11-29",
+   "fim": "2027-12-05"
+  },
+  {
+   "caso": "prof1",
+   "regra": "semPistas",
+   "inicio": "2027-12-06",
+   "fim": "2027-12-12"
+  },
+  {
+   "caso": "vet1",
+   "regra": "relampago",
+   "inicio": "2027-12-13",
+   "fim": "2027-12-19"
+  },
+  {
+   "caso": "bomb1",
+   "regra": "menos2",
+   "inicio": "2027-12-20",
+   "fim": "2027-12-26"
+  },
+  {
+   "caso": "cab1",
+   "regra": "soPerguntas",
+   "inicio": "2027-12-27",
+   "fim": "2028-01-02"
+  },
+  {
+   "caso": "med",
+   "regra": "semProcesso",
+   "inicio": "2028-01-03",
+   "fim": "2028-01-09"
+  }
+ ]
+}
