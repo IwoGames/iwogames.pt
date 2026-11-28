@@ -1,0 +1,6 @@
+{
+ "_leia": "Ficheiro de eventos do Linha de Fogo. event.id: dobro, porto, faca, certeiro, aldeia ou deserto (vazio = rotação automática). app: true quando a app estiver na Google Play.",
+ "app": false,
+ "event": {},
+ "news": []
+}
